@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+
+* {
+  margin: 0;
+  border: 0;
+}
+
+/* hits is for the header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  align-items: center;
+  height: 100px;
+}
+
+.header-style {
+  font-family: "Hubballi", cursive;
+  font-size: 24px;
+  margin: 50px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links li a {
+  color: black;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: rgba(48, 39, 39, 0.685);
+}
+
+.box {
+  border: 2px solid black;
+  border-radius: 5px;
+}
